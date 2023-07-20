@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav-bar">
+            <div id="logo">
+                <img src="images/logo.png" alt="" srcset="">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div class="order-container">
+                <button class="order">Place Order</button>
+              </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="details">
+            Hi,My name is <span class="purple">Mujtaba Ahmed</span>
+            <div>
+                and I am a 
+                <span id="element"></span>
+            </div>    
+        </div>
+        <div class="profile-image">
+            <!-- <img src="graph.png" alt="" srcset=""> -->
+            <img src="images/devloper1.png" alt="" srcset="">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/c56e64e792.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+<script>
+    var typed = new Typed('#element' , {
+      strings: ['Web Developer', 'Graphic Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
